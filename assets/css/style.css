@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Caprasimo&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+
 * {
     box-sizing: border-box;
+    color: black;
+    font-family: Caprasimo, sans-serif;
 }
 
 body {
@@ -13,14 +17,54 @@ body {
 }
 
 .home-container {
-    height: 65vh;
+    height: 45vh;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 
+.home-container h1 {
+    font-size: 50px;
+
+}
+
 .flex-start {
     display: flex;
     flex-direction: column;
+}
+
+.quiz-box {
+    width: 70%;
+    max-width: 600px;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.quiz-box h1 {
+    font-size: 30px;
+    color: white;
+    border-bottom: 2px solid;
+}
+
+.quiz {
+    padding: 30%;
+}
+
+.quiz h2 {
+    font-size: 20px;
+}
+
+.button {
+    background: white;
+    color: black;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    margin: 15px 0;
+    cursor: pointer;
 }
