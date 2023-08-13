@@ -27,13 +27,19 @@ body {
 
 .home-container h1 {
     font-size: 40px;
-    color: black;
+    color: purple;
 
 }
 
 .flex-start {
     display: flex;
     flex-direction: column;
+}
+
+.btn {
+    font-size: 15px;
+    color: pink;
+
 }
 
 .quiz-box {
