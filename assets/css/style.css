@@ -28,11 +28,26 @@ body {
 }
 
 .home-container h1 {
-    font-size: 40px;
-    color: white;
-    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
+    font-size: 45px;
+    font-weight: bolder;
+    color: pink;
+    text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.6);
     /* Adds a shadow for contrast */
 
+}
+
+.name-container {
+    padding-bottom: 30px;
+}
+
+#name-btn {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+#name-btn:hover {
+    background-color: pink;
 }
 
 .flex-start {
@@ -42,7 +57,7 @@ body {
 
 .btn {
     font-size: 30px;
-    color: whitesmoke;
+    color: pink;
     text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
 
 }
