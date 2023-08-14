@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Caprasimo&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Bebas+Neue&family=Caprasimo&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
 * {
     box-sizing: border-box;
     color: black;
-    font-family: Caprasimo, sans-serif;
+    font-family: Bebas+Neue, sans-serif;
 }
+
 /* This CSS controls the backgroundimage and body for both pages */
 body {
     padding: 0;
@@ -28,7 +29,9 @@ body {
 
 .home-container h1 {
     font-size: 40px;
-    color: purple;
+    color: white;
+    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
+    /* Adds a shadow for contrast */
 
 }
 
@@ -38,10 +41,12 @@ body {
 }
 
 .btn {
-    font-size: 20px;
-    color: pink;
+    font-size: 30px;
+    color: whitesmoke;
+    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
 
 }
+
 /* This is the beginning of the quiz page CSS*/
 .quiz-box {
     width: 70%;
