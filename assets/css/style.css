@@ -5,7 +5,7 @@
     color: black;
     font-family: Caprasimo, sans-serif;
 }
-
+/* This CSS controls the backgroundimage and body for both pages */
 body {
     padding: 0;
     margin: 0;
@@ -16,6 +16,7 @@ body {
     background-position: center;
 }
 
+/* This is the beginning of the home page css*/
 .home-container {
     height: 45vh;
     display: flex;
@@ -41,7 +42,7 @@ body {
     color: pink;
 
 }
-
+/* This is the beginning of the quiz page CSS*/
 .quiz-box {
     width: 70%;
     max-width: 600px;
