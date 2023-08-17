@@ -1,3 +1,4 @@
+
 // Get references to HTML elements
 const nameInput = document.getElementById("name");
 const saveButton = document.getElementById("name-btn");
@@ -9,12 +10,13 @@ saveButton.addEventListener("click", function () {
     if (username.trim() !== "") {
         // Save the username in local storage
         localStorage.setItem("username", username);
-        alert("Username saved!");
+
+        // Redirect the user to the game page
+        window.location.href = "quiz.html"; // Replace "quiz.html" with your game page's URL
     } else {
         alert("Please enter a valid username.");
     }
 });
-
 
 const quizQuestions = [
     {
