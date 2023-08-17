@@ -101,3 +101,12 @@ body {
 .button:hover {
     background: purple;
 }
+
+.seo-chugainn {
+    font-weight: bold;
+    
+}
+
+.seo-chugainn:hover{
+    background-color: chartreuse;
+}
