@@ -38,10 +38,10 @@ body {
 
 .name-container {
     padding-bottom: 30px;
-  
+
 }
 
-#name{
+#name {
     font-size: larger;
 }
 
@@ -50,7 +50,7 @@ body {
     color: black;
     font-size: larger;
     cursor: pointer;
-    
+
 }
 
 #name-btn:hover {
@@ -105,9 +105,10 @@ body {
 
 .seo-chugainn {
     font-weight: bold;
-    
+    display: none;
+
 }
 
-.seo-chugainn:hover{
+.seo-chugainn:hover {
     background-color: chartreuse;
 }

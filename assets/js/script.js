@@ -1,3 +1,4 @@
+
 let quizQuestions = [
     {
         question: "What year was ‘Camogie’ first played?",
@@ -55,7 +56,15 @@ let quizQuestions = [
 const questionText = document.getElementById("question-text");
 const answerContainer = document.getElementById("answer");
 
+
 let currentQuestionIndex = 0;
+let score = 0;
+
+function beginQuiz() {
+    currentQuestionIndex = 0;
+    score = 0;
+
+}
 
 function displayQuestion(questionIndex) {
     const currentQuestion = quizQuestions[questionIndex];
@@ -71,8 +80,10 @@ function displayQuestion(questionIndex) {
             // Check if the selected option is correct
             if (index === currentQuestion.correctAnswer) {
                 alert("Correct!");
+                button.style.backgroundColor = "green";
             } else {
                 alert("Incorrect!");
+                button.style.backgroundColor = "red";
             }
 
             // Display the next question
@@ -111,4 +122,6 @@ saveButton.addEventListener("click", function () {
         alert("Please enter a valid username.");
     }
 });
+
+
 
