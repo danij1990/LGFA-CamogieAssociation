@@ -38,12 +38,19 @@ body {
 
 .name-container {
     padding-bottom: 30px;
+  
+}
+
+#name{
+    font-size: larger;
 }
 
 #name-btn {
     background: white;
     color: black;
+    font-size: larger;
     cursor: pointer;
+    
 }
 
 #name-btn:hover {
@@ -55,12 +62,6 @@ body {
     flex-direction: column;
 }
 
-.btn {
-    font-size: 30px;
-    color: pink;
-    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9);
-
-}
 
 /* This is the beginning of the quiz page CSS*/
 .quiz-box {
@@ -77,7 +78,7 @@ body {
 .quiz-box h1 {
     font-size: 30px;
     color: rgb(0, 0, 255);
-    border-bottom: 2px solid;
+
 }
 
 .quiz {

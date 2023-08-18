@@ -1,24 +1,4 @@
-
-// Get references to HTML elements
-const nameInput = document.getElementById("name");
-const saveButton = document.getElementById("name-btn");
-
-// Add click event listener to the Save Name button
-saveButton.addEventListener("click", function () {
-    const username = nameInput.value;
-
-    if (username.trim() !== "") {
-        // Save the username in local storage
-        localStorage.setItem("username", username);
-
-        // Redirect the user to the game page
-        window.location.href = "quiz.html"; // Replace "quiz.html" with your game page's URL
-    } else {
-        alert("Please enter a valid username.");
-    }
-});
-
-const quizQuestions = [
+let quizQuestions = [
     {
         question: "What year was ‘Camogie’ first played?",
         options: ["1891", "1936", "1904", "1899"],
@@ -69,5 +49,66 @@ const quizQuestions = [
         options: ["Dublin", "Galway", "Kilkenny", "Cork"],
         correctAnswer: 3
     }
+
 ];
+
+const questionText = document.getElementById("question-text");
+const answerContainer = document.getElementById("answer");
+
+let currentQuestionIndex = 0;
+
+function displayQuestion(questionIndex) {
+    const currentQuestion = quizQuestions[questionIndex];
+    questionText.textContent = currentQuestion.question;
+
+    answerContainer.innerHTML = ""; // Clear previous answer options
+
+    currentQuestion.options.forEach((option, index) => {
+        const button = document.createElement("button");
+        button.textContent = option;
+        button.className = "button";
+        button.addEventListener("click", () => {
+            // Check if the selected option is correct
+            if (index === currentQuestion.correctAnswer) {
+                alert("Correct!");
+            } else {
+                alert("Incorrect!");
+            }
+
+            // Display the next question
+            currentQuestionIndex++;
+            if (currentQuestionIndex < quizQuestions.length) {
+                displayQuestion(currentQuestionIndex);
+            } else {
+                alert("Quiz completed!");
+            }
+        });
+
+        answerContainer.appendChild(button);
+    });
+}
+
+// Call the displayQuestion function to show the first question
+displayQuestion(currentQuestionIndex);
+
+
+
+// Get references to HTML elements, home page 
+const nameInput = document.getElementById("name");
+const saveButton = document.getElementById("name-btn");
+
+// Add click event listener to the Save Name button
+saveButton.addEventListener("click", function () {
+    const username = nameInput.value;
+
+    if (username.trim() !== "") {
+        // Save the username in local storage
+        localStorage.setItem("username", username);
+
+        // Redirect the user to the game page
+        window.location.href = "quiz.html"; // Replace "quiz.html" with your game page's URL
+    } else {
+        alert("Please enter a valid username.");
+    }
+});
 
