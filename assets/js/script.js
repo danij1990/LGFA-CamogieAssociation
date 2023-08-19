@@ -17,7 +17,7 @@ let quizQuestions = [
     },
     {
         question: "Galway had how many Camogie All-Stars in 2019?",
-        options: ["9", "8", "9", "7"],
+        options: ["6", "8", "9", "7"],
         correctAnswer: 3
     },
     {
@@ -85,13 +85,12 @@ function displayQuestion(questionIndex) {
         button.addEventListener("click", () => {
             // Check if the selected option is correct
             if (index === currentQuestion.correctAnswer) {
-                alert("Correct!");
-                score++;
-                updateScoreDisplay();
+                score++; //add up the score
+                updateScoreDisplay();// show the score
 
             } else {
                 alert("Incorrect!");
-                button.style.backgroundColor = "red";
+
             }
 
             // Display the next question
@@ -110,7 +109,7 @@ function displayQuestion(questionIndex) {
 
 // Call the displayQuestion function to show the first question
 displayQuestion(currentQuestionIndex);
-updateScoreDisplay(); // Display the initial score
+updateScoreDisplay(); // Display score
 
 
 
