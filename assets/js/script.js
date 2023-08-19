@@ -66,6 +66,12 @@ function beginQuiz() {
 
 }
 
+function updateScoreDisplay() {
+    const scoreElement = document.getElementById("score");
+    scoreElement.textContent = `Score: ${score}`;
+}
+
+
 function displayQuestion(questionIndex) {
     const currentQuestion = quizQuestions[questionIndex];
     questionText.textContent = currentQuestion.question;
@@ -80,7 +86,9 @@ function displayQuestion(questionIndex) {
             // Check if the selected option is correct
             if (index === currentQuestion.correctAnswer) {
                 alert("Correct!");
-                button.style.backgroundColor = "green";
+                score++;
+                updateScoreDisplay();
+
             } else {
                 alert("Incorrect!");
                 button.style.backgroundColor = "red";
@@ -93,6 +101,7 @@ function displayQuestion(questionIndex) {
             } else {
                 alert("Quiz completed!");
             }
+
         });
 
         answerContainer.appendChild(button);
@@ -101,27 +110,10 @@ function displayQuestion(questionIndex) {
 
 // Call the displayQuestion function to show the first question
 displayQuestion(currentQuestionIndex);
+updateScoreDisplay(); // Display the initial score
 
 
 
-// Get references to HTML elements, home page 
-const nameInput = document.getElementById("name");
-const saveButton = document.getElementById("name-btn");
-
-// Add click event listener to the Save Name button
-saveButton.addEventListener("click", function () {
-    const username = nameInput.value;
-
-    if (username.trim() !== "") {
-        // Save the username in local storage
-        localStorage.setItem("username", username);
-
-        // Redirect the user to the game page
-        window.location.href = "quiz.html"; // Replace "quiz.html" with your game page's URL
-    } else {
-        alert("Please enter a valid username.");
-    }
-});
 
 
 
