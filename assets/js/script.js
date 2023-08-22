@@ -96,7 +96,7 @@ function displayQuestion(questionIndex) {
             if (currentQuestionIndex < quizQuestions.length) {
                 displayQuestion(currentQuestionIndex);
             } else {
-                alert("Quiz completed!");
+
                 // After the alert("Quiz completed!"); line
                 const modal = document.getElementById("quiz-modal");
                 const finalScoreElement = document.getElementById("final-score");
@@ -110,6 +110,13 @@ function displayQuestion(questionIndex) {
                 closeButton.addEventListener("click", () => {
                     modal.style.display = "none";
                 });
+                // Reset the quiz
+                currentQuestionIndex = 0;
+                score = 0;
+
+                // Start the quiz again
+                displayQuestion(currentQuestionIndex);
+                updateScoreDisplay();
 
             }
 
