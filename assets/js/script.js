@@ -109,14 +109,10 @@ function displayQuestion(questionIndex) {
                 const closeButton = document.querySelector(".close");
                 closeButton.addEventListener("click", () => {
                     modal.style.display = "none";
+                    // Redirect to index.html
+                    window.location.href = "index.html";
                 });
-                // Reset the quiz
-                currentQuestionIndex = 0;
-                score = 0;
-
-                // Start the quiz again
-                displayQuestion(currentQuestionIndex);
-                updateScoreDisplay();
+             
 
             }
 
@@ -124,6 +120,7 @@ function displayQuestion(questionIndex) {
 
         answerContainer.appendChild(button);
     });
+
 }
 
 // Call the displayQuestion function to show the first question
