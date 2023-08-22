@@ -57,20 +57,17 @@ const questionText = document.getElementById("question-text");
 const answerContainer = document.getElementById("answer");
 
 
+
+
 let currentQuestionIndex = 0;
 let score = 0;
 
-function beginQuiz() {
-    currentQuestionIndex = 0;
-    score = 0;
 
-}
 
 function updateScoreDisplay() {
     const scoreElement = document.getElementById("score");
     scoreElement.textContent = `Score: ${score}`;
 }
-
 
 function displayQuestion(questionIndex) {
     const currentQuestion = quizQuestions[questionIndex];
@@ -88,6 +85,7 @@ function displayQuestion(questionIndex) {
                 score++; //add up the score
                 updateScoreDisplay();// show the score
 
+
             } else {
                 alert("Incorrect!");
 
@@ -99,6 +97,20 @@ function displayQuestion(questionIndex) {
                 displayQuestion(currentQuestionIndex);
             } else {
                 alert("Quiz completed!");
+                // After the alert("Quiz completed!"); line
+                const modal = document.getElementById("quiz-modal");
+                const finalScoreElement = document.getElementById("final-score");
+                finalScoreElement.textContent = score; // Set the final score in the modal
+
+                // Show the modal
+                modal.style.display = "block";
+
+                // Close the modal when the close button is clicked
+                const closeButton = document.querySelector(".close");
+                closeButton.addEventListener("click", () => {
+                    modal.style.display = "none";
+                });
+
             }
 
         });
