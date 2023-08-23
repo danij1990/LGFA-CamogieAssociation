@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@700&family=Bebas+Neue&family=Caprasimo&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto+Condensed&family=Roboto+Slab&display=swap');
 
 * {
     box-sizing: border-box;
     color: black;
-    font-family: Bebas+Neue, sans-serif;
+    font-family: roboto condensed, sans-serif;
 }
 
 /* This CSS controls the backgroundimage and body for both pages */
@@ -30,7 +30,7 @@ body {
 .home-container h1 {
     font-size: 45px;
     font-weight: bolder;
-    color:black;
+    color: black;
 
 }
 
@@ -103,13 +103,19 @@ body {
 }
 
 .button:hover {
-    background: purple;
+    background: pink;
 }
 
 .seo-chugainn {
     font-weight: bold;
     display: none;
 
+}
+
+#score {
+    text-transform: uppercase;
+    font-size: larger;
+    font-style: bold;
 }
 
 .seo-chugainn:hover {
