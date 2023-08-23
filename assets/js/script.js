@@ -55,7 +55,7 @@ let quizQuestions = [
 
 const questionText = document.getElementById("question-text");
 const answerContainer = document.getElementById("answer");
-var sec = 10;
+var sec = 120;
 var time = setInterval(quizTimer, 1000);
 
 
@@ -75,7 +75,7 @@ function quizTimer() {
     sec--;
     if (sec == -1) {
         clearInterval(time);
-        alert("Time out!! :("); 
+        alert("Time out!! :(");
         window.location.href = "index.html";  // Redirect to index.html
     }
     // clock keeps going when the user leaves the page 
