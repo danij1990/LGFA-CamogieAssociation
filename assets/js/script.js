@@ -55,7 +55,7 @@ let quizQuestions = [
 
 const questionText = document.getElementById("question-text");
 const answerContainer = document.getElementById("answer");
-var sec = 120;
+var sec = 10;
 var time = setInterval(quizTimer, 1000);
 
 
@@ -71,14 +71,15 @@ function updateScoreDisplay() {
 }
 
 function quizTimer() {
-    document.getElementById('timer').innerHTML = sec + "Seconds Left... Hurry!";
+    document.getElementById('timer').innerHTML = sec + "<br>Seconds Left";
     sec--;
     if (sec == -1) {
         clearInterval(time);
-        alert("Time out!! :(");
-        // Redirect to index.html
-        window.location.href = "index.html";
+        alert("Time out!! :("); 
+        window.location.href = "index.html";  // Redirect to index.html
     }
+    // clock keeps going when the user leaves the page 
+    localStorage.setItem('remainingTime', sec);
 }
 
 function displayQuestion(questionIndex) {

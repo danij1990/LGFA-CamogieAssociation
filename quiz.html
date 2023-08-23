@@ -1,47 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--links to the facions-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicon-16x16.png"
+    />
     <link rel="manifest" href="/site.webmanifest" />
     <!--link to the css page-->
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Camogie/LGFA Quiz</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <div class="quiz-box">
-            <h1>Na mBan sa Spórt</h1>
-            <div id="quiz">
-                <h2 id="question-text">Sample question</h2>
-                <div id="answer">
-                    <button class="button">Answer1</button>
-                    <button class="button">Answer2</button>
-                    <button class="button">Answer3</button>
-                    <button class="button">Answer4</button>
-                </div>
-                <button class="seo-chugainn">seo-chugainn</button>
-            </div>
-            <p id="score">Score: 0</p>
-            <span id="timer">Hurry:</span>
+      <div class="quiz-box">
+        <h1>Na mBan sa Spórt</h1>
+        <div id="quiz">
+          <h2 id="question-text">Sample question</h2>
+          <div id="answer">
+            <button class="button">Answer1</button>
+            <button class="button">Answer2</button>
+            <button class="button">Answer3</button>
+            <button class="button">Answer4</button>
+          </div>
+          <button class="seo-chugainn">seo-chugainn</button>
         </div>
-        <div id="quiz-modal" class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>Your Final Score: <span id="final-score"></span></p>
-            </div>
+        <p id="score">Score: 0</p>
+        <span id="timer"></span>
+      </div>
+      <div id="quiz-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Your Final Score: <span id="final-score"></span></p>
         </div>
-
+      </div>
     </main>
     <!--link to the javascritpt file-->
     <script src="assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>

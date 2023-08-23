@@ -118,6 +118,24 @@ body {
     background-color: chartreuse;
 }
 
+@keyframes fade {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+#timer {
+    text-transform: uppercase;
+    color: black;
+    animation: fade 1s infinite;
+}
+
 /* Add this to your CSS */
 .modal {
     display: none;
