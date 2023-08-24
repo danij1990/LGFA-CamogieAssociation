@@ -10,7 +10,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-image: url(../images/hurling-2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/stick-and-ball.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -30,7 +30,7 @@ body {
 .home-container h1 {
     font-size: 45px;
     font-weight: bolder;
-    color: black;
+    color: pink;
 
 }
 
@@ -61,19 +61,19 @@ body {
 }
 
 #name-btn {
-    background-color: #4caf50;
-    color: white;
+    background-color: pink;
+    color: black;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
+    font-weight: bolder;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-
 }
 
 #name-btn:hover {
-    background-color: orange;
+    background: plum;
+    transition: background-color 0.9s ease-in-out;
 }
 
 .flex-start {
@@ -95,20 +95,22 @@ body {
 }
 
 #rules-button {
-    background-color: #4caf50;
-    color: white;
+    background-color: pink;
+    color: black;
     border: none;
     justify-content: center;
     text-align: center;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
+    font-weight: bolder;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+
 }
 
 #rules-button:hover {
-    background-color: #45a049;
+    background: plum;
+    transition: background-color 0.9s ease-in-out;
 }
 
 /* Modal Styling */
@@ -130,6 +132,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     width: 60%;
+    text-transform: uppercase;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     position: relative;
 }
@@ -156,7 +159,7 @@ body {
     max-width: 600px;
     margin: 5% auto;
     padding: 20px;
-    background-color: green;
+    background-color: pink;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -187,7 +190,8 @@ body {
 }
 
 .button:hover {
-    background: orange;
+    background: plum;
+    transition: background-color 0.9s ease-in-out;
 }
 
 .seo-chugainn {
@@ -204,7 +208,11 @@ body {
 
 .seo-chugainn:hover {
     background-color: chartreuse;
+
 }
+
+
+
 
 /* flashin timer animation  */
 @keyframes fade {
@@ -244,7 +252,7 @@ body {
     width: 60%;
 }
 
-.close {
+.close-rules {
     float: right;
     font-size: 28px;
     font-weight: bold;

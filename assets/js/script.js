@@ -60,6 +60,7 @@ var time = setInterval(quizTimer, 1000);
 
 
 
+
 let currentQuestionIndex = 0;
 let score = 0;
 
@@ -101,6 +102,7 @@ function displayQuestion(questionIndex) {
 
             } else {
                 alert("Incorrect!");
+        
 
             }
 
@@ -119,7 +121,7 @@ function displayQuestion(questionIndex) {
                 modal.style.display = "block";
 
                 // Close the modal when the close button is clicked
-                const closeButton = document.querySelector(".close");
+                const closeButton = document.querySelector(".close-rules");
                 closeButton.addEventListener("click", () => {
                     modal.style.display = "none";
                     // Redirect to index.html
