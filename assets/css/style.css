@@ -87,6 +87,13 @@ body {
     text-transform: uppercase;
 }
 
+.rules-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
 #rules-button {
     background-color: #4caf50;
     color: white;
