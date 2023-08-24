@@ -57,26 +57,12 @@ const questionText = document.getElementById("question-text");
 const answerContainer = document.getElementById("answer");
 var sec = 120;
 var time = setInterval(quizTimer, 1000);
-var userNameInput = document.getElementById('name');
+
 
 
 let currentQuestionIndex = 0;
 let score = 0;
 
-let nameInput = document.getElementById("local-name");
-let saveButton = document.getElementById("name-btn");
-saveButton.addEventListener("click", signIn);
-function signIn() {
-    username = userNameInput.value;
-    if (username.trim() !== "") {
-        // Save the username in local storage
-        localStorage.setItem("username", username);
-        // Redirect the user to the game page
-        window.location.href = "quiz.html"; // Replace "quiz.html" with your game page's URL
-    } else {
-        alert("Please enter a valid username.");
-    }
-};
 
 
 function updateScoreDisplay() {
