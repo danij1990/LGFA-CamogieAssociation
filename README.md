@@ -29,6 +29,16 @@ Together, let's make a difference in the world of women's sports. Join us in cel
 
 Are you ready to test your knowledge and embark on this exciting journey? Let's dive into the Camogie and Ladies Football Quiz and play our part in shaping the future of women's sports in Ireland! 🏆🌍
 
+### wireframe
+
+The landing page design prominently features an input field for usernames, positioned centrally for immediate user attention. This serves as the core interactive element of the page. Flanking the username input, two buttons are thoughtfully situated. Beneath the input field, the "Play" button resides, beckoning users to explore the regulations guiding the experience. When interacted with, this button triggers the appearance of a modal overlay that succinctly presents the rules. Adjacent to the rules button, the "Rules" button awaits, poised to initiate the gameplay. However, its functionality is contingent upon the prior input of a valid username. This intentional design ensures a smooth flow: users first acquaint themselves with the rules before transitioning seamlessly to active participation through the play button, fostering an engaging and informed user experience, the background image will cover the whole page.
+
+![Wireframe for landing page](assets/images/wireframe-land.png)
+
+The quiz page design features a dynamic quiz box, structured to accommodate the user's engagement with a set of 10 questions. Each question is accompanied by four distinct answer choices, challenging the user's knowledge and decision-making. To infuse an element of urgency and excitement, a countdown timer prominently positioned near the quiz box ticks away 120 seconds, adding a time-sensitive dimension to the quiz-solving experience. Upon selecting an answer, users are transitioned to the next question. This design framework ensures that users navigate through the quiz efficiently, driven by both their knowledge and the race against time, ultimately culminating in an engaging quiz-taking encounter.
+
+![Wireframe for Quiz page](assets/images/wireframe-quiz.png)
+
 ## Getting Started
 
 Welcome to our quiz app, where knowledge meets excitement! Our thoughtfully designed landing page sets the stage for an engaging and stimulating experience. As you enter, you'll be greeted by a user-friendly interface featuring a prominently placed username input field, ensuring a personalized journey from the very start. Alongside, two distinct buttons beckon your curiosity: one dedicated to acquainting you with the rules of the game, providing a clear roadmap to navigate the quiz successfully; the other, your gateway to embarking on the quiz adventure. 
@@ -98,15 +108,18 @@ I have provided screenshots below
 
 ![Desktop Home](assets/images/desktop.png)
 ![Desktop Quiz](assets/images/Desktop-quiz.png)
-![Quiz Home](assets/images/quiz.png)
+![Quiz Home](assets/images/Desktop-quiz.png)
 ![Quiz Mobile](assets/images/Mobile-quiz.png)
 
 **Code**
+
  JavaScript code that passes through a linter (e.g. Jshint) with no significant issues.
 
 Custom HTML code that passes through the official W3C validator with no issues.
 
 Custom CSS code that passes through the official (Jigsaw) validator with no issues
+
+
 
 ### Prerequisites
 
