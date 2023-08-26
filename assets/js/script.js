@@ -102,7 +102,7 @@ function displayQuestion(questionIndex) {
 
             } else {
                 alert("Incorrect!");
-        
+
 
             }
 
@@ -141,9 +141,3 @@ function displayQuestion(questionIndex) {
 // Call the displayQuestion function to show the first question
 displayQuestion(currentQuestionIndex);
 updateScoreDisplay(); // Display score
-
-
-
-
-
-

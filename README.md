@@ -29,27 +29,84 @@ Together, let's make a difference in the world of women's sports. Join us in cel
 
 Are you ready to test your knowledge and embark on this exciting journey? Let's dive into the Camogie and Ladies Football Quiz and play our part in shaping the future of women's sports in Ireland! 🏆🌍
 
-## Table of Contents
-
-- [Camogie and Ladies Football Quiz - Promoting Women's Sports in Ireland](#camogie-and-ladies-football-quiz---promoting-womens-sports-in-ireland)
-  - [Project Overview](#project-overview)
-  - [Table of Contents](#table-of-contents)
-  - [Project Overview](#project-overview-1)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-  - [Usage](#usage)
-  - [Features](#features)
-  - [Contributing](#contributing)
-  - [License](#license)
-
-## Project Overview
-
-Provide a more detailed introduction to your project. Explain what it does, its main features, and why it's useful or interesting.
-
 ## Getting Started
 
-Provide instructions on how to get your project up and running.
+Welcome to our quiz app, where knowledge meets excitement! Our thoughtfully designed landing page sets the stage for an engaging and stimulating experience. As you enter, you'll be greeted by a user-friendly interface featuring a prominently placed username input field, ensuring a personalized journey from the very start. Alongside, two distinct buttons beckon your curiosity: one dedicated to acquainting you with the rules of the game, providing a clear roadmap to navigate the quiz successfully; the other, your gateway to embarking on the quiz adventure. 
+![Landing page](assets/images/Landing%20page.png)
+
+Upon entering the quiz page, a series of ten thought-provoking questions, each accompanied by four carefully crafted answer choices. Your mental acuity and knowledge will be put to the test as you navigate through these intriguing inquiries. Once you've bravely tackled the final question, your score will be calculated, providing an insightful measure of your quiz prowess. However, the journey doesn't end there. After closing the final score tab, you will be redirected back to our landing page, to see if you can beat your high score.
+
+![Quiz page](assets/images/quiz.png)
+
+
+### Testing
+
+1. **Username Input Validation:**
+    - Test entering a valid username.
+    - Test entering an invalid username (e.g., special characters, long strings).
+    - Test leaving the username field empty.
+
+2. **Rules Button:**
+    - Test clicking the "Rules" button.
+    - Test if the rules information is displayed correctly.
+    - Test if you can close the rules information.
+
+3. **Start Button:**
+    - Test clicking the "Start Quiz" button.
+    - Test if the quiz questions load properly.
+    - Test if the answer choices are displayed correctly.
+
+4. **Answer Selection:**
+    - Test selecting a correct answer and verifying if it's marked as correct.
+    - Test selecting an incorrect answer and verifying if it's marked as incorrect.
+    - Test selecting an answer, changing your mind, and selecting a different one.
+
+5. **Quiz Progress:**
+    - Test if the quiz progresses through all the questions.
+    - Test if the app prevents going to the next question without answering the current one.
+
+6. **Quiz Completion:**
+    - Test answering all questions and completing the quiz.
+    - Test answering no questions and trying to complete the quiz.
+    - Test different combinations of correct and incorrect answers to ensure scoring accuracy.
+
+7. **Score Calculation:**
+    - Test if the score is calculated accurately based on the answered questions.
+    - Test if the score is displayed correctly at the end of the quiz.
+
+8. **Final Score Tab:**
+    - Test closing the final score tab and ensuring redirection to the landing page.
+
+9. **Responsive Design:**
+    - Test the app's responsiveness on different screen sizes (using browser developer tools or real devices).
+    - Test if the layout, input fields, buttons, and text adjust properly on smaller screens.
+
+10. **Cross-Browser Compatibility:**
+    - Test the app on different web browsers (Chrome, Firefox, Safari, Edge) to ensure consistent functionality and appearance.
+
+11. **Performance:**
+    - Test the app's loading speed, especially if there are image assets or complex animations.
+    - Test for any memory leaks or performance issues during long quiz sessions.
+
+12. **Device Testing:**
+Test your app on various devices such as smartphones, tablets, laptops, and desktops to ensure it looks and functions well across different screen sizes.
+
+**LightHouse**
+I also tested both my home and quiz page using lighthouse. 
+
+I have provided screenshots below
+
+![Desktop Home](assets/images/desktop.png)
+![Desktop Quiz](assets/images/Desktop-quiz.png)
+![Quiz Home](assets/images/quiz.png)
+![Quiz Mobile](assets/images/Mobile-quiz.png)
+
+**Code**
+ JavaScript code that passes through a linter (e.g. Jshint) with no significant issues.
+
+Custom HTML code that passes through the official W3C validator with no issues.
+
+Custom CSS code that passes through the official (Jigsaw) validator with no issues
 
 ### Prerequisites
 
