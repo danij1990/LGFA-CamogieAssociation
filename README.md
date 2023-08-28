@@ -119,6 +119,37 @@ Custom HTML code that passes through the official W3C validator with no issues.
 
 Custom CSS code that passes through the official (Jigsaw) validator with no issues
 
+## Features
+
+### Technologies Used
+
+- **HTML:** The foundation of the website's structure and content.
+- **CSS:** Styling and layout to enhance the visual appeal and user experience.
+- **JavaScript:** Interactive elements, dynamic content, and user engagement.
+- **Codeanywhere:** Online development environment for coding and collaboration.
+- **GitHub:** Version control and collaboration platform for hosting and managing the project.
+- **Git:** Version control system to track changes and manage codebase.
+- **Favicon:** Custom icons displayed in the browser's tab or bookmark bar.
+- **Balsamiq:** Wireframing tool used for designing the initial website layout.
+- **Unsplash:** Source of high-quality images to enhance visual aesthetics.
+
+### Key Features
+
+1. **Interactive Quiz:** Engaging quiz section featuring questions related to Camogie and LGFA.
+2. **Score Tracking:** Real-time score tracking to keep users informed about their progress.
+3. **Feedback Animation:** Visually appealing feedback animation for correct and incorrect answers.
+4. **Modal Popups:** Informative modals for displaying final scores and quiz rules.
+5. **Responsive Design:** Ensures a seamless experience across various screen sizes and devices.
+6. **Custom Styling:** Thoughtful styling using CSS to create an attractive and consistent design.
+7. **GitHub Hosting:** Hosted on GitHub Pages for easy access and sharing with others.
+
+### Development Process
+
+1. **Design Phase:** Wireframing with Balsamiq to plan the layout and visual elements.
+2. **Coding:** Implemented the design using HTML, CSS, and JavaScript for interactivity.
+3. **Version Control:** Utilized Git for tracking changes and collaboration with GitHub.
+4. **Testing:** Thoroughly tested the website's responsiveness and functionality.
+5. **Deployment:** Hosted the website on GitHub Pages for public access.
 
 
 ### Prerequisites
