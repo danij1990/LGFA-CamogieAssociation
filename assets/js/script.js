@@ -101,8 +101,11 @@ function displayQuestion(questionIndex) {
 
 
             } else {
-                alert("Incorrect!");
 
+                let wrongAns = document.getElementById('incorrect-answer');
+                wrongAns.style.display = 'block';
+                wrongAns.innerHTML = "<p>Incorrect</p>";
+                setTimeout(() => { wrongAns.style.display = 'none'; }, 2000);
 
             }
 

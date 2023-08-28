@@ -258,6 +258,17 @@ body {
     font-size: 28px;
     font-weight: bold;
     cursor: pointer;
+
+}
+
+#incorrect-answer {
+    display: none;
+    top: 30%;
+    left: 10%;
+    position: absolute;
+    width: 80%;
+    height: 100px;
+    background-color: white;
 }
 
 @media screen and (max-width:750px) {}
