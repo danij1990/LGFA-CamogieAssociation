@@ -1,4 +1,4 @@
-
+// Array of quiz questions, each containing question text, options, and the index of the correct answer
 let quizQuestions = [
     {
         question: "What year was ‘Camogie’ first played?",
@@ -53,24 +53,29 @@ let quizQuestions = [
 
 ];
 
+// Get the HTML elements for question text and answer options
 const questionText = document.getElementById("question-text");
 const answerContainer = document.getElementById("answer");
-var sec = 120;
+// Timer variables
+var sec = 120; 
 var time = setInterval(quizTimer, 1000);
 
 
 
-
+// Index of the current question being displayed
 let currentQuestionIndex = 0;
+
+// Player's score
 let score = 0;
 
 
-
+// Update the score display on the page
 function updateScoreDisplay() {
     const scoreElement = document.getElementById("score");
     scoreElement.textContent = `Score: ${score}`;
 }
 
+// Timer function that updates the displayed time and handles time-out
 function quizTimer() {
     document.getElementById('timer').innerHTML = sec + "<br>Seconds Left";
     sec--;
@@ -83,6 +88,7 @@ function quizTimer() {
     localStorage.setItem('remainingTime', sec);
 }
 
+// Function to display a question based on its index
 function displayQuestion(questionIndex) {
     const currentQuestion = quizQuestions[questionIndex];
     questionText.textContent = currentQuestion.question;
@@ -101,6 +107,7 @@ function displayQuestion(questionIndex) {
 
 
             } else {
+                // Display "Incorrect" message temporarily for wrong answers
 
                 let wrongAns = document.getElementById('incorrect-answer');
                 wrongAns.style.display = 'block';
@@ -109,7 +116,7 @@ function displayQuestion(questionIndex) {
 
             }
 
-            // Display the next question
+            // Display the next question or show the final score modal
             currentQuestionIndex++;
             if (currentQuestionIndex < quizQuestions.length) {
                 displayQuestion(currentQuestionIndex);
@@ -135,6 +142,7 @@ function displayQuestion(questionIndex) {
             }
 
         });
+        // Add the option button to the answer container
 
         answerContainer.appendChild(button);
     });
