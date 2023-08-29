@@ -188,11 +188,19 @@ By carrying out these tests and successfully confirming each scenario, you have 
 I also tested both my home and quiz page using lighthouse the both passed through lighthouse with out issues. 
 
 I have provided screenshots below
-
+**Desktop home**
 ![Desktop Home](assets/images/desktop.png)
+**Desktop Quiz**
 ![Desktop Quiz](assets/images/Desktop-quiz.png)
+**Quiz Home**
 ![Quiz Home](assets/images/Desktop-quiz.png)
+**Quiz Mobile**
 ![Quiz Mobile](assets/images/Mobile-quiz.png)
+**404 Mobile**
+![404 Mobile](assets/images/mobile%20lighthouse.png)
+**404 Desktop**
+![404 Desktop](assets/images/mobile%20lighthouse.png)
+
 
 **WAVE Web Accessibility Evaluation Tools**
 To dive deeper into testing contrast issues I also used WAVE, no contrast errors to report. 
@@ -201,6 +209,8 @@ To dive deeper into testing contrast issues I also used WAVE, no contrast errors
 ![Home Page](assets/images/wave-home.png)
 
 ![Quiz Page](assets/images/wave-quiz.png)
+
+![404 page](assets/images/404wave.png)
 
 **Code**
 
@@ -224,7 +234,9 @@ My custom 404.html has passed through the official W3C validator with no issues.
 
 ![404 html](assets/images/404w3.png)
 
-Custom CSS code that passes through the official (Jigsaw) validator with no issues
+My custom CSS code that passed through the official Jigsaw validator with no issues
+
+![CSS Page](assets/images/CSSJig.png)
 
 ## Features
 
