@@ -61,6 +61,9 @@ During the quiz, keep an eye on your score and the timer located at the bottom o
 
 ![Final Score](assets/images/Yourscore.png)
 
+Our 404 page is designed to help users get back on track. If they land on a page that doesn't exist, we display a friendly 'Page Not Found' message along with a link to our main page. Clicking on this link automatically takes users back to our website's home page. This way, even if they end up on a wrong page, they can easily find their way back to our content.
+
+![404 page](assets/images/404notfound.png)
 
 ### Testing Carried Out 
 
@@ -216,6 +219,10 @@ My custom index.html has passed through the official W3C validator with no issue
 My custom quiz.html has passed through the official W3C validator with no issues.
 
 ![quiz.html](assets/images/quiz.html.val.png)
+
+My custom 404.html has passed through the official W3C validator with no issues.
+
+![404 html](assets/images/404w3.png)
 
 Custom CSS code that passes through the official (Jigsaw) validator with no issues
 
