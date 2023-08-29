@@ -102,7 +102,7 @@ Upon entering the quiz page, a series of ten thought-provoking questions, each a
 Test your app on various devices such as smartphones, tablets, laptops, and desktops to ensure it looks and functions well across different screen sizes.
 
 **LightHouse**
-I also tested both my home and quiz page using lighthouse. 
+I also tested both my home and quiz page using lighthouse the both passed through lighthouse with out issues. 
 
 I have provided screenshots below
 
@@ -110,6 +110,14 @@ I have provided screenshots below
 ![Desktop Quiz](assets/images/Desktop-quiz.png)
 ![Quiz Home](assets/images/Desktop-quiz.png)
 ![Quiz Mobile](assets/images/Mobile-quiz.png)
+
+**WAVE Web Accessibility Evaluation Tools**
+To dive deeper into testing contrast issues I also used WAVE, no contrast errors to report. 
+<https://wave.webaim.org/>
+
+![Home Page](assets/images/wave-home.png)
+
+![Quiz Page](assets/images/wave-quiz.png)
 
 **Code**
 
@@ -151,6 +159,29 @@ Custom CSS code that passes through the official (Jigsaw) validator with no issu
 4. **Testing:** Thoroughly tested the website's responsiveness and functionality.
 5. **Deployment:** Hosted the website on GitHub Pages for public access.
 
+## Credits and Thank You
+
+I would like to extend my gratitude to the following individuals, websites, and resources that played a pivotal role in providing guidance and support throughout the creation of my JavaScript quiz:
+
+- [Web Dev Simplified](https://www.youtube.com/watch?v=y17RuWkWdn8) - Your insightful tutorials helped me grasp complex concepts with ease. Thank you for simplifying the world of web development.
+
+- [Web Dev Simplified](https://www.youtube.com/watch?v=FOD408a0EzU) - Your dedication to sharing knowledge is truly commendable. Your videos were instrumental in enhancing my understanding of JavaScript fundamentals.
+
+- [Anna Kabow](https://www.youtube.com/watch?v=bOkuPo5VbTg&t=251s) - Anna, your tutorials are a beacon of clarity. Your explanations guided me through challenges, and I'm grateful for your detailed approach.
+
+- [Zenva](https://www.youtube.com/watch?v=RswgVWKJRLM&t=374s) - Zenva, your comprehensive tutorials opened up new possibilities for my quiz project.
+
+- Upsplash - [Adrian Payne](https://unsplash.com/photos/Mf_nmDrHbFE) - Adrian, thank you for sharing your photograph on Upsplash. It added a touch of visual appeal to my project.
+
+- [W3Schools](https://www.w3schools.com/jsref/met_win_setinterval.asp), [W3Schools](https://www.w3schools.com/jsref/met_win_settimeout.asp), [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) - The resources from W3Schools were invaluable references that I frequently turned to during development. Thank you for compiling a rich repository of web knowledge.
+
+- [Stack Overflow](https://stackoverflow.com/search?q=javascript+quiz+app&s=ef72ab1a-bdbf-4dbe-bf11-fed4daac78e8) - To the Stack Overflow community, your discussions and solutions were lifesavers whenever I encountered roadblocks. Thank you for being an endless source of solutions.
+
+- Jamie Oneill - [LinkedIn](https://www.linkedin.com/in/jamie2023/) - Jamie, your professional insights and advice were incredibly helpful in refining my project. 
+
+- Discord - The Coding Den - The members of The Coding Den Discord community, thank you for being a place where I could exchange ideas, seek assistance, and grow as a developer.
+
+To everyone mentioned above, your contributions made a significant difference in my journey to create this JavaScript quiz. Thank You.
 
 ### Prerequisites
 
