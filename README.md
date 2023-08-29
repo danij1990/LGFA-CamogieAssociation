@@ -200,13 +200,13 @@ To dive deeper into testing contrast issues I also used WAVE, no contrast errors
 
 **Code**
 
-I have passed my custom script.js file through Esprima with no issues.
+I have passed my custom script.js file through JShint with no issues.
 
-![Script.js Screenshot](assets/images/Script-val.png)
+![Script.js Screenshot](assets/images/JSquiz.png)
 
-I have passed my custom Home.js file through Esprima with no issues.
+I have passed my custom Home.js file through JShint with no issues.
 
-![home.js Screenshot](assets/images/home-val.png)
+![home.js Screenshot](assets/images/jshinthomejs.png)
 
 My custom index.html has passed through the official W3C validator with no issues.
 
