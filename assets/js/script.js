@@ -57,7 +57,7 @@ let quizQuestions = [
 const questionText = document.getElementById("question-text");
 const answerContainer = document.getElementById("answer");
 // Timer variables
-var sec = 120; 
+var sec = 120;
 var time = setInterval(quizTimer, 1000);
 
 

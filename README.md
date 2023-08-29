@@ -195,6 +195,11 @@ Custom CSS code that passes through the official (Jigsaw) validator with no issu
 8. 
 9. **Deployment:** Hosted the website on GitHub Pages for public access.
 
+
+## Deployment
+
+To access the live deployment of this project, simply visit the following URL: [https://danij1990.github.io/LGFA-CamogieAssociation/index.html](https://danij1990.github.io/LGFA-CamogieAssociation/index.html). The development of this project was carried out using Codeanywhere as the primary code editor. Throughout the development process, Git version control was employed. Regularly using commands like `git add`, `git commit`, and `git push`, the project's progress was consistently saved to the GitHub repository. By utilizing GitHub Pages, the final version of the project was successfully deployed. Upon completion of the quiz, a modal will display your final score. Once you exit this modal, you'll be redirected back to the homepage. 
+
 ## Credits and Thank You
 
 I would like to extend my gratitude to the following individuals, websites, and resources that played a pivotal role in providing guidance and support throughout the creation of my JavaScript quiz:
@@ -219,9 +224,25 @@ I would like to extend my gratitude to the following individuals, websites, and 
 
 To everyone mentioned above, your contributions made a significant difference in my journey to create this JavaScript quiz. Thank You.
 
-### Prerequisites
+### Bugs
 
-List any software, tools, or knowledge that users need before starting with your project.
+**Bug Description**
+
+An issue arose when attempting to use username local storage on the home page, I added the below syntax to the script.js page and it was linked to my index.html file. When I entered a username, and hit the paly button my questions stored in my array would not load.
+
+Commit message - try to fix bug error
+
+![Username bug](assets/images/bug%20error.png)
+
+![index html bug](assets/images/index-bug.png)
+
+**Bug Resolution**
+
+After extensive troubleshooting, utilizing insights and approaches detailed in the "Credits" section of this readme, I successfully resolved the bug. The issue, which resulted in the questions not loading correctly on the quiz page despite several attempts, required an innovative solution. By creating a separate file named Home.js and establishing a link between this file and the index.html, I was able to rectify the problem and ensure the questions loaded as expected. This solution not only eliminated the bug but also enhanced the overall performance of the quiz application. The experience underscores the value of collaboration and persistent problem-solving in software development.
+
+![Home.js big fix](assets/images/homejsfix%20.png)
+
+![Index fix ](assets/images/index-fix.png)
 
 ### Installation
 
