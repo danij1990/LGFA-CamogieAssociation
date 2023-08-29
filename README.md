@@ -121,7 +121,9 @@ To dive deeper into testing contrast issues I also used WAVE, no contrast errors
 
 **Code**
 
- JavaScript code that passes through a linter (e.g. Jshint) with no significant issues.
+I have passed my script.js file through Esprima with no significant issues.
+
+![Script.js Screenshot](assets/images/Script-val.png)
 
 Custom HTML code that passes through the official W3C validator with no issues.
 
