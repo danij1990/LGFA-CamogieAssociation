@@ -133,15 +133,21 @@ To dive deeper into testing contrast issues I also used WAVE, no contrast errors
 
 **Code**
 
-I have passed my script.js file through Esprima with no issues.
+I have passed my custom script.js file through Esprima with no issues.
 
 ![Script.js Screenshot](assets/images/Script-val.png)
 
-I have passed my Home.js file through Esprima with no issues.
+I have passed my custom Home.js file through Esprima with no issues.
 
 ![home.js Screenshot](assets/images/home-val.png)
 
-Custom HTML code that passes through the official W3C validator with no issues.
+My custom index.html has passed through the official W3C validator with no issues.
+
+![index.html](assets/images/index.htmlval.png)
+
+My custom quiz.html has passed through the official W3C validator with no issues.
+
+![quiz.html](assets/images/quiz.html.val.png)
 
 Custom CSS code that passes through the official (Jigsaw) validator with no issues
 
@@ -224,7 +230,7 @@ I would like to extend my gratitude to the following individuals, websites, and 
 
 To everyone mentioned above, your contributions made a significant difference in my journey to create this JavaScript quiz. Thank You.
 
-### Bugs
+## Bugs
 
 **Bug Description**
 
@@ -244,9 +250,20 @@ After extensive troubleshooting, utilizing insights and approaches detailed in t
 
 ![Index fix ](assets/images/index-fix.png)
 
-### Installation
 
-Step-by-step guide on how to install and set up your project locally.
+## Contact
+
+Daniel Hughes, Mullingar Co Westmeath, Ireland.
+
+Phone : +353 852570069
+
+Email : danijhughes@gmail.com
+
+Git Hub : danij1990
+
+Linkedin: <https://www.linkedin.com/in/daniel-hughes-36a948258/>
+
+Facebook: <https://www.facebook.com/danny.hughes.96558>
 
 ## Usage
 
