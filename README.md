@@ -207,7 +207,7 @@ I have passed my custom script.js file through JShint with no issues.
 
 I have passed my custom Home.js file through JShint with no issues.
 
-![home.js Screenshot](assets/images/jshinthomejs.png)
+![home.js Screenshot](assets/images/homejshint.png)
 
 My custom index.html has passed through the official W3C validator with no issues.
 

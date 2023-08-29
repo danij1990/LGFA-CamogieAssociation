@@ -112,7 +112,7 @@ function displayQuestion(questionIndex) {
                 let wrongAns = document.getElementById('incorrect-answer');
                 wrongAns.style.display = 'block';
                 wrongAns.innerHTML = "<p>Incorrect</p>";
-                setTimeout(() => { wrongAns.style.display = 'none'; }, 2000);
+                setTimeout(() => { wrongAns.style.display = 'none'; }, 1000);
 
             }
 
