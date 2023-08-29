@@ -61,7 +61,7 @@ During the quiz, keep an eye on your score and the timer located at the bottom o
 ![Final Score](assets/images/Yourscore.png)
 
 
-### Testing
+### Testing Carried Out 
 
 1. **Username Input Validation:**
     - Test entering a valid username.
@@ -113,6 +113,73 @@ During the quiz, keep an eye on your score and the timer located at the bottom o
 12. **Device Testing:**
 Test your app on various devices such as smartphones, tablets, laptops, and desktops to ensure it looks and functions well across different screen sizes.
 
+
+### Test Results 
+
+**Username Input Validation:**
+
+1. Successfully entered a valid username.
+2. Confirmed that entering an invalid username (e.g., special characters, long strings) triggers appropriate validation.
+3. Verified that leaving the username field empty prompts the expected validation message.
+
+**Rules Button:**
+
+1. Confirmed that clicking the "Rules" button opens the rules information modal.
+2. Verified that the rules information is displayed correctly within the modal.
+3. Successfully closed the rules information modal using the close button.
+
+**Start Button:**
+
+1. Confirmed that clicking the "Start Quiz" button initiates the quiz.
+2. Verified that the quiz questions load properly and are displayed as expected.
+3. Ensured that the answer choices are correctly presented for each question.
+
+**Answer Selection:**
+
+1. Successfully selected a correct answer and verified that it is marked as correct.
+2. Confirmed that selecting an incorrect answer results in appropriate marking as incorrect.
+3. Verified the ability to change an answer selection before moving to the next question.
+
+**Quiz Progress:**
+
+1. Confirmed that the quiz progresses through all questions in the correct sequence.
+2. Verified that the app prevents proceeding to the next question without answering the current one.
+
+**Quiz Completion:**
+
+1. Successfully answered all questions and received a completion notification.
+2. Confirmed that attempting to complete the quiz without answering any questions prompts a validation message.
+3. Tested various combinations of correct and incorrect answers to ensure scoring accuracy.
+
+**Score Calculation:**
+
+1. Verified that the score is accurately calculated based on the number of correct answers.
+2. Confirmed that the displayed score at the end of the quiz matches the calculated score.
+
+**Final Score Tab:**
+
+1. Successfully closed the final score tab and verified redirection to the landing page.
+
+**Responsive Design:**
+
+1. Tested the app's responsiveness using browser developer tools across different screen sizes.
+2. Confirmed that the layout, input fields, buttons, and text adapt appropriately on smaller screens.
+
+**Cross-Browser Compatibility:**
+
+1. Tested the app on various web browsers (Chrome, Firefox, Safari, Edge) to ensure consistent functionality and appearance.
+
+**Performance:**
+
+1. Verified the app's loading speed, especially with image assets or animations.
+2. Confirmed absence of memory leaks or performance issues during extended quiz sessions.
+
+**Device Testing:**
+
+1. Tested the app on smartphones, tablets, laptops, and desktops to ensure a seamless experience across different screen sizes.
+
+By carrying out these tests and successfully confirming each scenario, you have ensured that your application works as expected and provides a smooth and reliable user experience.
+
 **LightHouse**
 I also tested both my home and quiz page using lighthouse the both passed through lighthouse with out issues. 
 
@@ -155,52 +222,33 @@ Custom CSS code that passes through the official (Jigsaw) validator with no issu
 
 ### Technologies Used
 
-- **HTML:** The foundation of the website's structure and content.
-- 
+- **HTML:** The foundation of the website's structure and content. 
 - **CSS:** Styling and layout to enhance the visual appeal and user experience.
-- 
 - **JavaScript:** Interactive elements, dynamic content, and user engagement.
-- 
 - **Codeanywhere:** Online development environment for coding and collaboration.
-- 
 - **GitHub:** Version control and collaboration platform for hosting and managing the project.
-- 
 - **Git:** Version control system to track changes and manage codebase.
-- 
 - **Favicon:** Custom icons displayed in the browser's tab or bookmark bar.
-- 
 - **Balsamiq:** Wireframing tool used for designing the initial website layout.
-- 
 - **Unsplash:** Source of high-quality images to enhance visual aesthetics.
 
 ### Key Features
 
 1. **Interactive Quiz:** Engaging quiz section featuring questions related to Camogie and LGFA.
-2. 
-3. **Score Tracking:** Real-time score tracking to keep users informed about their progress.
-4. 
-5. **Feedback Animation:** Visually appealing feedback animation for correct and incorrect answers.
-6. 
-7. **Modal Popups:** Informative modals for displaying final scores and quiz rules.
-8. 
-9. **Responsive Design:** Ensures a seamless experience across various screen sizes and devices.
-10. 
-11. **Custom Styling:** Thoughtful styling using CSS to create an attractive and consistent design.
-12. 
-13. **GitHub Hosting:** Hosted on GitHub Pages for easy access and sharing with others.
+2. **Score Tracking:** Real-time score tracking to keep users informed about their progress.
+3. **Feedback Animation:** Visually appealing feedback animation for correct and incorrect answers.
+4. **Modal Popups:** Informative modals for displaying final scores and quiz rules.
+5. **Responsive Design:** Ensures a seamless experience across various screen sizes and devices.
+6.  **Custom Styling:** Thoughtful styling using CSS to create an attractive and consistent design.
+7.  **GitHub Hosting:** Hosted on GitHub Pages for easy access and sharing with others.
 
 ### Development Process
 
-1. **Design Phase:** Wireframing with Balsamiq to plan the layout and visual elements.
-2. 
+1. **Design Phase:** Wireframing with Balsamiq to plan the layout and visual elements. 
 3. **Coding:** Implemented the design using HTML, CSS, and JavaScript for interactivity.
-4. 
-5. **Version Control:** Utilized Git for tracking changes and collaboration with GitHub.
-6. 
-7. **Testing:** Thoroughly tested the website's responsiveness and functionality.
-8. 
-9. **Deployment:** Hosted the website on GitHub Pages for public access.
-
+4. **Version Control:** Utilized Git for tracking changes and collaboration with GitHub.
+5. **Testing:** Thoroughly tested the website's responsiveness and functionality.
+6. **Deployment:** Hosted the website on GitHub Pages for public access.
 
 ## Deployment
 
