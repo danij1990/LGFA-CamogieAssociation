@@ -54,11 +54,11 @@ Welcome to the Quiz App! As you tackle the quiz questions, simply click on an an
 
 But don't worry if it's incorrect the app will provide guidance to help you learn. Enjoy the quiz and have fun improving your knowledge!
 
-![incorrect Questions](assets/images/incorrect.jpeg)
+![incorrect Questions](assets/images/youincorrect.jpeg)
 
 During the quiz, keep an eye on your score and the timer located at the bottom of the screen. Once you've completed the quiz, a modal will reveal your final score. After exiting the modal, you'll be redirected to the homepage, where you can aim to surpass your previous score in another attempt.
 
-![Final Score](assets/images/Final%20score%20.png)
+![Final Score](assets/images/Yourscore.png)
 
 
 ### Testing
