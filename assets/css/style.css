@@ -284,7 +284,6 @@ body {
     justify-content: center;
     height: 100vh;
     text-align: center;
-    background-color: #f7f7f7;
 }
 
 #go-back h1 {
@@ -311,22 +310,4 @@ body {
 
 #go-back a:hover {
     background-color: purple;
-}
-
-@media screen and (max-width:780px) {
-
-    .quiz-box {
-        margin-top: 150px;
-
-    }
-
-
-}
-
-
-@media screen and (max-width:410px) {
-    .quiz-box {
-        margin: 0 auto;
-    }
-
 }
