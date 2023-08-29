@@ -252,7 +252,59 @@ Custom CSS code that passes through the official (Jigsaw) validator with no issu
 
 ## Deployment
 
-To access the live deployment of this project, simply visit the following URL: [https://danij1990.github.io/LGFA-CamogieAssociation/index.html](https://danij1990.github.io/LGFA-CamogieAssociation/index.html). The development of this project was carried out using Codeanywhere as the primary code editor. Throughout the development process, Git version control was employed. Regularly using commands like `git add`, `git commit`, and `git push`, the project's progress was consistently saved to the GitHub repository. By utilizing GitHub Pages, the final version of the project was successfully deployed. Upon completion of the quiz, a modal will display your final score. Once you exit this modal, you'll be redirected back to the homepage. 
+### Version Control
+
+The site was created using Codeanywhere code editor and pushed to github to the remote repository ‘LGFA-CamogieAssociation’.
+
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push``` - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the menu on left select 'Pages'
+  - From the source section drop-down menu, select the Branch: main
+  - Click 'Save'
+  - A live link will be displayed in a green banner when published successfully.
+
+The live link can be found here - <https://danij1990.github.io/LGFA-CamogieAssociation/index.html>
+
+### Clone the Repository Code Locally
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+
+The project will now of been cloned on your local machine for use.
+
+## Future Development
+
+In the future, there are several exciting enhancements planned for this project:
+
+- **Database Integration**: Incorporating a database to store usernames and high scores will provide a more robust and structured way to manage user data. This will enable better tracking of user progress and facilitate features like leaderboards and personalized experiences.
+
+- **API Integration**: Introducing an API layer will open up possibilities for seamless integration with external services or platforms. This could include allowing users to share their achievements on social media, interacting with other apps, or even enabling cross-device synchronization.
+
+- **Expanded Question Sets**: Enriching the question pool with a broader range of questions will enhance user engagement and provide a more comprehensive learning experience. This could involve collaborating with subject matter experts to cover diverse topics and skill levels.
+
+- **Enhanced User Experience**: Continuously improving the user interface and overall user experience will be pivotal. Implementing user feedback, optimizing performance, and ensuring accessibility across different devices and screen sizes will contribute to a polished and user-friendly application.
+
+- **Gamification Elements**: Adding gamification elements like badges, achievements, or rewards for completing challenges or reaching milestones can make the learning process more enjoyable and motivating for users.
+
+- **Localization and Internationalization**: Expanding language support and adapting content to cater to different regions and languages will make the application accessible to a broader global audience.
+
+These planned developments will elevate the project by offering more features, engagement opportunities, and a more immersive learning environment for users.
+
 
 ## Credits and Thank You
 
