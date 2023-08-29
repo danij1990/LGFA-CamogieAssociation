@@ -48,6 +48,18 @@ Upon entering the quiz page, a series of ten thought-provoking questions, each a
 
 ![Quiz page](assets/images/quiz.png)
 
+Welcome to the Quiz App! As you tackle the quiz questions, simply click on an answer to highlight your choice. If your answer is correct, you'll earn a point. 
+
+![Quiz Questions](assets/images/correct-ans.png)
+
+But don't worry if it's incorrect the app will provide guidance to help you learn. Enjoy the quiz and have fun improving your knowledge!
+
+![incorrect Questions](assets/images/incorrect.jpeg)
+
+During the quiz, keep an eye on your score and the timer located at the bottom of the screen. Once you've completed the quiz, a modal will reveal your final score. After exiting the modal, you'll be redirected to the homepage, where you can aim to surpass your previous score in another attempt.
+
+![Final Score](assets/images/Final%20score%20.png)
+
 
 ### Testing
 
@@ -121,9 +133,13 @@ To dive deeper into testing contrast issues I also used WAVE, no contrast errors
 
 **Code**
 
-I have passed my script.js file through Esprima with no significant issues.
+I have passed my script.js file through Esprima with no issues.
 
 ![Script.js Screenshot](assets/images/Script-val.png)
+
+I have passed my Home.js file through Esprima with no issues.
+
+![home.js Screenshot](assets/images/home-val.png)
 
 Custom HTML code that passes through the official W3C validator with no issues.
 
@@ -134,32 +150,50 @@ Custom CSS code that passes through the official (Jigsaw) validator with no issu
 ### Technologies Used
 
 - **HTML:** The foundation of the website's structure and content.
+- 
 - **CSS:** Styling and layout to enhance the visual appeal and user experience.
+- 
 - **JavaScript:** Interactive elements, dynamic content, and user engagement.
+- 
 - **Codeanywhere:** Online development environment for coding and collaboration.
+- 
 - **GitHub:** Version control and collaboration platform for hosting and managing the project.
+- 
 - **Git:** Version control system to track changes and manage codebase.
+- 
 - **Favicon:** Custom icons displayed in the browser's tab or bookmark bar.
+- 
 - **Balsamiq:** Wireframing tool used for designing the initial website layout.
+- 
 - **Unsplash:** Source of high-quality images to enhance visual aesthetics.
 
 ### Key Features
 
 1. **Interactive Quiz:** Engaging quiz section featuring questions related to Camogie and LGFA.
-2. **Score Tracking:** Real-time score tracking to keep users informed about their progress.
-3. **Feedback Animation:** Visually appealing feedback animation for correct and incorrect answers.
-4. **Modal Popups:** Informative modals for displaying final scores and quiz rules.
-5. **Responsive Design:** Ensures a seamless experience across various screen sizes and devices.
-6. **Custom Styling:** Thoughtful styling using CSS to create an attractive and consistent design.
-7. **GitHub Hosting:** Hosted on GitHub Pages for easy access and sharing with others.
+2. 
+3. **Score Tracking:** Real-time score tracking to keep users informed about their progress.
+4. 
+5. **Feedback Animation:** Visually appealing feedback animation for correct and incorrect answers.
+6. 
+7. **Modal Popups:** Informative modals for displaying final scores and quiz rules.
+8. 
+9. **Responsive Design:** Ensures a seamless experience across various screen sizes and devices.
+10. 
+11. **Custom Styling:** Thoughtful styling using CSS to create an attractive and consistent design.
+12. 
+13. **GitHub Hosting:** Hosted on GitHub Pages for easy access and sharing with others.
 
 ### Development Process
 
 1. **Design Phase:** Wireframing with Balsamiq to plan the layout and visual elements.
-2. **Coding:** Implemented the design using HTML, CSS, and JavaScript for interactivity.
-3. **Version Control:** Utilized Git for tracking changes and collaboration with GitHub.
-4. **Testing:** Thoroughly tested the website's responsiveness and functionality.
-5. **Deployment:** Hosted the website on GitHub Pages for public access.
+2. 
+3. **Coding:** Implemented the design using HTML, CSS, and JavaScript for interactivity.
+4. 
+5. **Version Control:** Utilized Git for tracking changes and collaboration with GitHub.
+6. 
+7. **Testing:** Thoroughly tested the website's responsiveness and functionality.
+8. 
+9. **Deployment:** Hosted the website on GitHub Pages for public access.
 
 ## Credits and Thank You
 

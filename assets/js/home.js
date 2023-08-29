@@ -1,7 +1,12 @@
+// Get references to HTML elements
 let nameInput = document.getElementById("local-name");
 var userNameInput = document.getElementById('name');
 let saveButton = document.getElementById("name-btn");
+
+// Add event listener to the save button
 saveButton.addEventListener("click", signIn);
+
+// Function to execute when the "Save" button is clicked
 function signIn() {
     username = userNameInput.value;
     if (username.trim() !== "") {
@@ -14,6 +19,7 @@ function signIn() {
     }
 };
 
+// Add event listener to the rules button to open the rules modal
 var modal = document.getElementById("rules-modal");
 var btn = document.getElementById("rules-button");
 var span = document.getElementsByClassName("close-rules")[0];
@@ -22,6 +28,8 @@ btn.onclick = function () {
     modal.style.display = "block";
 };
 
+
+// Add event listener to the close button within the rules modal
 span.onclick = function () {
     modal.style.display = "none";
 };
