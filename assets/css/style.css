@@ -5,7 +5,7 @@
 * {
     box-sizing: border-box;
     color: black;
-    font-family: roboto condensed, sans-serif;
+    font-family: roboto, condensed, sans-serif;
 }
 
 /* Body and Background */
@@ -197,24 +197,12 @@ body {
     transition: background-color 0.9s ease-in-out;
 }
 
-.seo-chugainn {
-    font-weight: bold;
-    display: none;
-
-}
 
 #score {
     text-transform: uppercase;
     font-size: larger;
-    font-style: bold;
+    font-weight: bold;
 }
-
-.seo-chugainn:hover {
-    background-color: chartreuse;
-
-}
-
-
 
 
 /* flashin timer animation  */
@@ -231,6 +219,7 @@ body {
 }
 
 #timer {
+    font-weight: bold;
     text-transform: uppercase;
     color: black;
     animation: fade 1s infinite;
@@ -265,6 +254,7 @@ body {
 
 
 
+/* targets incorrect answer model  */
 #incorrect-answer {
     display: none;
     top: 30%;
@@ -272,12 +262,19 @@ body {
     position: absolute;
     width: 60%;
     height: 100px;
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
     font-size: 18px;
-    color: #ff0000;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 
+}
+
+/* targets incorrect answer model content  */
+#incorrect-answer p {
+    color: red;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 @media screen and (max-width:780px) {

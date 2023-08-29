@@ -313,20 +313,3 @@ Linkedin: <https://www.linkedin.com/in/daniel-hughes-36a948258/>
 
 Facebook: <https://www.facebook.com/danny.hughes.96558>
 
-## Usage
-
-Demonstrate how to use your project or showcase its main functionality. You can include code examples, screenshots, or gifs.
-
-## Features
-
-Highlight the key features of your project. You can use a bullet point list or elaborate with brief descriptions.
-
-## Contributing
-
-Explain how others can contribute to your project. Provide guidelines for submitting issues or pull requests.
-
-## License
-
-Specify the license under which your project is distributed. For example:
-
-This project is licensed under the [MIT License](LICENSE).
