@@ -1,7 +1,6 @@
-![Responsive image](assets/images/responce.png)
-
 # Camogie and Ladies Football Quiz - Promoting Women's Sports in Ireland
 
+![Responsive image](assets/images/responce.png)
 
 Welcome to the Camogie and Ladies Football Quiz! 🏐🌟
 
