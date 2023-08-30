@@ -36,6 +36,7 @@ body {
 
 }
 
+/* Container for username input */
 .name-container {
     display: flex;
     flex-direction: column;
@@ -58,10 +59,12 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    width: 250px;
+    width:
+        250px;
     margin-bottom: 10px;
 }
 
+/* enter username button */
 #name-btn {
     background-color: pink;
     color: black;
@@ -96,6 +99,8 @@ body {
     min-height: 60vh;
 }
 
+/* button to dispaly hidden Modal */
+
 #rules-button {
     background-color: pink;
     color: black;
@@ -115,7 +120,7 @@ body {
     transition: background-color 0.9s ease-in-out;
 }
 
-/* Modal Styling */
+/* Rules hidden Modal */
 .modal {
     display: none;
     position: fixed;
@@ -128,7 +133,7 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-
+/* Pop up model when displayed CSS */
 .rules-content {
     background-color: white;
     margin: 10% auto;
@@ -157,6 +162,8 @@ body {
 
 
 /* This is the beginning of the quiz page CSS*/
+
+/* Quiz container*/
 .quiz-box {
     width: 70%;
     max-width: 600px;
@@ -198,6 +205,7 @@ body {
 }
 
 
+/* Quiz container score counter*/
 #score {
     text-transform: uppercase;
     font-size: larger;
@@ -205,7 +213,8 @@ body {
 }
 
 
-/* flashin timer animation  */
+/* flashin timer anima
+tion  */
 @keyframes fade {
 
     0%,
@@ -218,6 +227,7 @@ body {
     }
 }
 
+/*timer with above animation*/
 #timer {
     font-weight: bold;
     text-transform: uppercase;
@@ -277,6 +287,8 @@ body {
     font-weight: bolder;
 }
 
+/* 404.html section css*/
+
 #go-back {
     display: flex;
     flex-direction: column;
@@ -298,6 +310,7 @@ body {
     margin-bottom: 2rem;
 }
 
+/* 404 redirect button*/
 #go-back a {
     display: inline-block;
     padding: 0.5rem 1rem;
@@ -310,4 +323,18 @@ body {
 
 #go-back a:hover {
     background-color: purple;
+}
+
+/* css for small screens under 410px*/
+
+@media screen and (max-width:410px) {
+
+    .flex-start h1 {
+        font-size: 28px;
+    }
+
+    .quiz-box {
+        margin: 0 auto;
+    }
+
 }
